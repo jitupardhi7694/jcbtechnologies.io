@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Tiro+Devanagari+Marathi&display=swap');
+
+.carousel .carousel-inner{
+height:600px
+}
+.carousel-inner .carousel-item  img{
+min-height:300px;
+//prevent it from stretch in screen size < than 768px
+object-fit:cover
+}
+
+@media(max-width:768px){
+.carousel  .carousel-indicators .carousel-inner{
+//prevent it from adding a white space between carousel and container elements
+height:auto
+ }
+
+
+video{
+
+	height: 70px;
+	width: 100%;
+}
